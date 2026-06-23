@@ -29,6 +29,8 @@ Do this on **both** PCs:
 1. **Install BepInEx**:
    - Download **BepInEx 5.4.23.2, `win-x64`** from
      <https://github.com/BepInEx/BepInEx/releases>.
+     
+     • [Direct Link to Windows x64 bit](https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip)
    - Extract the zip into your game folder - the one containing `ARobotNamedFight.exe`:
      `…\Steam\steamapps\common\A Robot Named Fight\`
    - Launch the game once, then quit. This generates the `BepInEx\plugins` folder.
