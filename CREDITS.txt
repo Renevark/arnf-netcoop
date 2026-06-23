@@ -1,0 +1,58 @@
+ARNF NetCoop — Online Co-op for A Robot Named Fight
+Version 1.0.0
+By Etto
+
+This mod adds 2-player online co-op to A Robot Named Fight. It contains NO game
+assets: it patches your own installed copy of the game at runtime via BepInEx /
+Harmony and does not modify or redistribute any game files.
+
+================================================================================
+THIRD-PARTY COMPONENTS
+================================================================================
+
+--------------------------------------------------------------------------------
+LiteNetLib  (bundled into ARNFNetCoop.dll — used for the UDP/IP transport)
+https://github.com/RevenantX/LiteNetLib
+--------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2020 Ruslan Pyrch
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+Runtime dependencies (NOT bundled — installed separately by the player)
+--------------------------------------------------------------------------------
+
+BepInEx 5  — the mod loader.            LGPL-2.1.   https://github.com/BepInEx/BepInEx
+HarmonyX   — runtime patching (via BepInEx).  LGPL-2.1 / MIT.  https://github.com/BepInEx/HarmonyX
+
+--------------------------------------------------------------------------------
+Build-time only (NOT shipped in the release)
+--------------------------------------------------------------------------------
+
+Krafs.Publicizer — compile-time access to non-public members.  MIT.
+https://github.com/krafs/Publicizer
+
+================================================================================
+A Robot Named Fight is © its respective developer and publisher. This is an
+unofficial, fan-made mod and is not affiliated with or endorsed by them.
+You must own the game to use it.
+================================================================================
