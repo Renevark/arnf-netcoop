@@ -43,7 +43,7 @@ Do this on **both** PCs:
 
 After selecting your save slot in-game, press **F9** to open the NetCoop panel. Pick a connection method:
 
-### Steam (recommended — no setup)
+### Steam (recommended, no setup)
 If you're both on Steam, the panel shows a **Steam / Direct IP** toggle.
 - **Host:** select **Steam**, click **Host via Steam**, then invite your friend from the
   Steam overlay (**Shift+Tab > Invite**) or have them "Join Game" from their friends list.
@@ -86,6 +86,6 @@ Once connected, the host starts (or continues) a run and the client drops in. A 
 ## License & credits
 
 The mod code is released under the [MIT License](LICENSE). Bundled/third-party components
-(LiteNetLib, BepInEx, HarmonyX) retain their own licenses — see [CREDITS.txt](CREDITS.txt).
+(LiteNetLib, BepInEx, HarmonyX) retain their own licenses. See [CREDITS.txt](CREDITS.txt).
 Unofficial fan-made mod; not affiliated with the game's developer or publisher. You must
 own the game to use it.
