@@ -49,7 +49,7 @@ If you're both on Steam, the panel shows a **Steam / Direct IP** toggle.
   Steam overlay (**Shift+Tab > Invite**) or have them "Join Game" from their friends list.
 - **Join:** accept the invite or right click and join via the friends list.
 
-No port forwarding required with the Steam connection method.
+No port forwarding required with the Steam connection method. As a bonus, if you use Steam to connect, the pickup messages will show your Steam name. 
 
 ### Direct / IP (LAN or port-forwarded)
 - **Host:** select **Direct IP**, click **Host** (default UDP port **24816**).
