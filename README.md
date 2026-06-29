@@ -5,12 +5,15 @@ joins, and you fight through the same procedurally-generated run together. Share
 synced enemies and bosses, shared items/upgrades, A player revive system based on the local multiplayer drone, and resume-your-run-later
 support.
 
-**Version 1.0.7** · BepInEx plugin · 2 players
+**Version 1.0.8** · BepInEx plugin · 2 players
 
 ## Download
 
-Grab the latest **`ARNFNetCoop-1.0.7.zip`** from the
+Grab the latest **`ARNFNetCoop-1.0.8.zip`** from the
 [**Releases**](../../releases/latest) page.
+
+The mod checks for updates at startup and shows a notice in the F9 panel when a newer
+version is available, so you will know when to come back here for the latest build.
 
 ---
 
@@ -49,7 +52,7 @@ If you're both on Steam, the panel shows a **Steam / Direct IP** toggle.
   Steam overlay (**Shift+Tab > Invite**) or have them "Join Game" from their friends list.
 - **Join:** accept the invite or right click and join via the friends list.
 
-No port forwarding required with the Steam connection method. As a bonus, if you use Steam to connect, the pickup messages will show your Steam name. 
+No port forwarding required with the Steam connection method. If you have Steam running, your Steam name is shown to your partner on any connection method, including Direct/IP (on the partner panel and in pickup messages). A player without Steam simply shows as P1/P2.
 
 ### Direct / IP (LAN or port-forwarded)
 - **Host:** select **Direct IP**, click **Host** (default UDP port **24816**).
@@ -80,7 +83,7 @@ Once connected, the host starts (or continues) a run and the client drops in. A 
   `ARNFNetCoop.dll`. For Direct over the internet, confirm **UDP 24816** is forwarded to the
   host.
 - **Mod didn't load:** open `…\A Robot Named Fight\BepInEx\LogOutput.log` and look for
-  `ARNF NetCoop v1.0.7 loaded; patches applied: N ok, 0 failed.` If that line is missing,
+  `ARNF NetCoop v1.0.8 loaded; patches applied: N ok, 0 failed.` If that line is missing,
   BepInEx isn't installed correctly (re-check step 1).
 
 ## License & credits
