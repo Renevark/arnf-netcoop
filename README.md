@@ -46,15 +46,15 @@ Do this on **both** PCs:
 
 After selecting your save slot in-game, press **F9** to open the NetCoop panel. Pick a connection method:
 
-### Steam (recommended, no setup)
+No port forwarding required with the Steam connection method. If you have Steam running, your Steam name is shown to your partner on any connection method, including Direct/IP (on the partner panel and in pickup messages). A player without Steam simply shows as P1/P2.
+
+### Steam (no setup needed, older Steam API for this game so may be a bit unreliable but local testing was good)
 If you're both on Steam, the panel shows a **Steam / Direct IP** toggle.
 - **Host:** select **Steam**, click **Host via Steam**, then invite your friend from the
   Steam overlay (**Shift+Tab > Invite**) or have them "Join Game" from their friends list.
 - **Join:** accept the invite or right click and join via the friends list.
 
-No port forwarding required with the Steam connection method. If you have Steam running, your Steam name is shown to your partner on any connection method, including Direct/IP (on the partner panel and in pickup messages). A player without Steam simply shows as P1/P2.
-
-### Direct / IP (LAN or port-forwarded)
+### Direct / IP (LAN or port-forwarding needed)
 - **Host:** select **Direct IP**, click **Host** (default UDP port **24816**).
 - **Join:** enter the host's IP and port, click **Join**.
 
