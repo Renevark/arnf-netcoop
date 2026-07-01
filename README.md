@@ -5,11 +5,11 @@ joins, and you fight through the same procedurally-generated run together. Share
 synced enemies and bosses, shared items/upgrades, A player revive system based on the local multiplayer drone, and resume-your-run-later
 support.
 
-**Version 1.0.8** · BepInEx plugin · 2 players
+**Version 1.0.9** · BepInEx plugin · 2 players
 
 ## Download
 
-Grab the latest **`ARNFNetCoop-1.0.8.zip`** from the
+Grab the latest **`ARNFNetCoop-1.0.9.zip`** from the
 [**Releases**](../../releases/latest) page.
 
 The mod checks for updates at startup and shows a notice in the F9 panel when a newer
@@ -83,7 +83,7 @@ Once connected, the host starts (or continues) a run and the client drops in. A 
   `ARNFNetCoop.dll`. For Direct over the internet, confirm **UDP 24816** is forwarded to the
   host.
 - **Mod didn't load:** open `…\A Robot Named Fight\BepInEx\LogOutput.log` and look for
-  `ARNF NetCoop v1.0.8 loaded; patches applied: N ok, 0 failed.` If that line is missing,
+  `ARNF NetCoop v1.0.9 loaded; patches applied: N ok, 0 failed.` If that line is missing,
   BepInEx isn't installed correctly (re-check step 1).
 
 ## License & credits
