@@ -6,11 +6,11 @@ rooms, synced enemies and bosses, shared items/upgrades, a player revive system 
 local multiplayer drone, and resume-your-run-later support. Also includes **Convergence**, a
 brand-new co-op mission built for up to four players (see [Game modes](#game-modes)).
 
-**Version 2.0.0** · BepInEx plugin · up to 4 players
+**Version 2.0.1** · BepInEx plugin · up to 4 players
 
 ## Download
 
-Grab the latest **`ARNFNetCoop-2.0.0.zip`** from the
+Grab the latest **`ARNFNetCoop-2.0.1.zip`** from the
 [**Releases**](../../releases/latest) page.
 
 The mod checks for updates at startup and shows a notice in the F9 panel when a newer
@@ -102,7 +102,7 @@ Once connected, the host starts (or continues) a run and the others drop in. A p
   `ARNFNetCoop.dll`. For Direct over the internet, confirm **UDP 24816** is forwarded to the
   host.
 - **Mod didn't load:** open `…\A Robot Named Fight\BepInEx\LogOutput.log` and look for
-  `ARNF NetCoop v2.0.0 loaded; patches applied: N ok, 0 failed.` If that line is missing,
+  `ARNF NetCoop v2.0.1 loaded; patches applied: N ok, 0 failed.` If that line is missing,
   BepInEx isn't installed correctly (re-check step 1).
 
 ## License & credits
